@@ -1,0 +1,35 @@
+
+{
+    "jhipsterSampleApplicationApp": {
+        "noteEsame" : {
+            "home": {
+                "title": "Note Esames",
+                "createLabel": "Create a new Note Esame",
+                "createOrEditLabel": "Create or edit a Note Esame"
+            },
+            "created": "A new Note Esame is created with identifier {{ param }}",
+            "updated": "A Note Esame is updated with identifier {{ param }}",
+            "deleted": "A Note Esame is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Note Esame {{ id }}?"
+            },
+            "detail": {
+                "title": "Note Esame"
+            },
+            "appunti": "Appunti",
+            "dataDispensa": "Data Dispensa",
+            "dataCorsi": "Data Corsi",
+            "dataABI": "Data ABI",
+            "dataRiepilogo": "Data Riepilogo",
+            "oraEsame": "Ora Esame",
+            "costoEsame": "Costo Esame",
+            "fasce": "Fasce",
+            "piva": "Piva",
+            "fattura": "Fattura",
+            "noteFattura": "Note Fattura",
+            "emailInviata": "Email Inviata",
+            "relNoteStud": "Rel Note Stud",
+            "relNoteEsami": "Rel Note Esami"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+
+{
+    "jhipsterSampleApplicationApp": {
+        "studenti" : {
+            "home": {
+                "title": "Studentis",
+                "createLabel": "Create a new Studenti",
+                "createOrEditLabel": "Create or edit a Studenti"
+            },
+            "created": "A new Studenti is created with identifier {{ param }}",
+            "updated": "A Studenti is updated with identifier {{ param }}",
+            "deleted": "A Studenti is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Studenti {{ id }}?"
+            },
+            "detail": {
+                "title": "Studenti"
+            },
+            "nome": "Nome",
+            "cognome": "Cognome",
+            "email": "Email",
+            "telefono": "Telefono",
+            "indirizzo": "Indirizzo",
+            "citta": "Citta",
+            "provincia": "Provincia",
+            "stato": "Stato",
+            "cap": "Cap",
+            "dataDiNascita": "Data Di Nascita",
+            "luogoDiNascita": "Luogo Di Nascita",
+            "matricola": "Matricola",
+            "tempoParziale": "Tempo Parziale",
+            "abilitato": "Abilitato",
+            "dataModifica": "Data Modifica",
+            "relStuCdl": "Rel Stu Cdl"
+        }
+    }
+}

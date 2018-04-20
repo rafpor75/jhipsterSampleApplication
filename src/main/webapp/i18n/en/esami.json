@@ -1,0 +1,24 @@
+
+{
+    "jhipsterSampleApplicationApp": {
+        "esami" : {
+            "home": {
+                "title": "Esamis",
+                "createLabel": "Create a new Esami",
+                "createOrEditLabel": "Create or edit a Esami"
+            },
+            "created": "A new Esami is created with identifier {{ param }}",
+            "updated": "A Esami is updated with identifier {{ param }}",
+            "deleted": "A Esami is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Esami {{ id }}?"
+            },
+            "detail": {
+                "title": "Esami"
+            },
+            "data": "Data",
+            "relEsamiSedi": "Rel Esami Sedi",
+            "relMatEsami": "Rel Mat Esami"
+        }
+    }
+}

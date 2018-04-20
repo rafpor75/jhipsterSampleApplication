@@ -1,0 +1,26 @@
+
+{
+    "jhipsterSampleApplicationApp": {
+        "docenti" : {
+            "home": {
+                "title": "Docentis",
+                "createLabel": "Create a new Docenti",
+                "createOrEditLabel": "Create or edit a Docenti"
+            },
+            "created": "A new Docenti is created with identifier {{ param }}",
+            "updated": "A Docenti is updated with identifier {{ param }}",
+            "deleted": "A Docenti is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Docenti {{ id }}?"
+            },
+            "detail": {
+                "title": "Docenti"
+            },
+            "nome": "Nome",
+            "cognome": "Cognome",
+            "email": "Email",
+            "abilitato": "Abilitato",
+            "relDocMat": "Rel Doc Mat"
+        }
+    }
+}

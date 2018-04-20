@@ -1,0 +1,22 @@
+
+{
+    "jhipsterSampleApplicationApp": {
+        "sedi" : {
+            "home": {
+                "title": "Sedis",
+                "createLabel": "Create a new Sedi",
+                "createOrEditLabel": "Create or edit a Sedi"
+            },
+            "created": "A new Sedi is created with identifier {{ param }}",
+            "updated": "A Sedi is updated with identifier {{ param }}",
+            "deleted": "A Sedi is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Sedi {{ id }}?"
+            },
+            "detail": {
+                "title": "Sedi"
+            },
+            "sede": "Sede"
+        }
+    }
+}

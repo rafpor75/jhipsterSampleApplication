@@ -1,0 +1,79 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "relStuCdl",
+            "otherEntityName": "cdl",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cognome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telefono",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "indirizzo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "citta",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "provincia",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "stato",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cap",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dataDiNascita",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "luogoDiNascita",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "matricola",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tempoParziale",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "abilitato",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "dataModifica",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20180420142054",
+    "entityTableName": "studenti",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false
+}

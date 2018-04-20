@@ -7,6 +7,17 @@
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entities",
+                "facolta": "Facolta",
+                "annoAccademico": "Anno Accademico",
+                "cdl": "Cdl",
+                "docenti": "Docenti",
+                "materie": "Materie",
+                "pianiDiStudio": "Piani Di Studio",
+                "sedi": "Sedi",
+                "studenti": "Studenti",
+                "tutor": "Tutor",
+                "esami": "Esami",
+                "noteEsame": "Note Esame",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

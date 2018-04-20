@@ -5,6 +5,23 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142047_added_entity_Facolta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142048_added_entity_AnnoAccademico.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142049_added_entity_Cdl.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142050_added_entity_Docenti.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142051_added_entity_Materie.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142052_added_entity_PianiDiStudio.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142053_added_entity_Sedi.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142054_added_entity_Studenti.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142055_added_entity_Tutor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142056_added_entity_Esami.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142057_added_entity_NoteEsame.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20180420142049_added_entity_constraints_Cdl.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142051_added_entity_constraints_Materie.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142052_added_entity_constraints_PianiDiStudio.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142054_added_entity_constraints_Studenti.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142056_added_entity_constraints_Esami.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180420142057_added_entity_constraints_NoteEsame.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

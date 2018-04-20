@@ -1,0 +1,22 @@
+
+{
+    "jhipsterSampleApplicationApp": {
+        "annoAccademico" : {
+            "home": {
+                "title": "Anno Accademicos",
+                "createLabel": "Create a new Anno Accademico",
+                "createOrEditLabel": "Create or edit a Anno Accademico"
+            },
+            "created": "A new Anno Accademico is created with identifier {{ param }}",
+            "updated": "A Anno Accademico is updated with identifier {{ param }}",
+            "deleted": "A Anno Accademico is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Anno Accademico {{ id }}?"
+            },
+            "detail": {
+                "title": "Anno Accademico"
+            },
+            "descrizione": "Descrizione"
+        }
+    }
+}

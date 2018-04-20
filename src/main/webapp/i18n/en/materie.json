@@ -1,0 +1,28 @@
+
+{
+    "jhipsterSampleApplicationApp": {
+        "materie" : {
+            "home": {
+                "title": "Materies",
+                "createLabel": "Create a new Materie",
+                "createOrEditLabel": "Create or edit a Materie"
+            },
+            "created": "A new Materie is created with identifier {{ param }}",
+            "updated": "A Materie is updated with identifier {{ param }}",
+            "deleted": "A Materie is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Materie {{ id }}?"
+            },
+            "detail": {
+                "title": "Materie"
+            },
+            "nome": "Nome",
+            "cfu": "Cfu",
+            "abilitato": "Abilitato",
+            "dataModifica": "Data Modifica",
+            "relMatCdl": "Rel Mat Cdl",
+            "relMatTut": "Rel Mat Tut",
+            "relMatDoc": "Rel Mat Doc"
+        }
+    }
+}

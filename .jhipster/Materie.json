@@ -1,0 +1,47 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "relMatCdl",
+            "otherEntityName": "cdl",
+            "otherEntityField": "nome"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "relMatTut",
+            "otherEntityName": "tutor",
+            "otherEntityField": "cognome"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "relMatDoc",
+            "otherEntityName": "docenti",
+            "otherEntityField": "cognome"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cfu",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "abilitato",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "dataModifica",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20180420142051",
+    "entityTableName": "materie",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false
+}

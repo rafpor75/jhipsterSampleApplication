@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "descrizione",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180420142048",
+    "entityTableName": "anno_accademico",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false
+}

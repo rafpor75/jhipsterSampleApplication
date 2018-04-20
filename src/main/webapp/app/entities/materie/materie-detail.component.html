@@ -1,0 +1,56 @@
+
+<div *ngIf="materie">
+    <h2><span jhiTranslate="jhipsterSampleApplicationApp.materie.detail.title">Materie</span> {{materie.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="jhipsterSampleApplicationApp.materie.nome">Nome</span></dt>
+        <dd>
+            <span>{{materie.nome}}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterSampleApplicationApp.materie.cfu">Cfu</span></dt>
+        <dd>
+            <span>{{materie.cfu}}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterSampleApplicationApp.materie.abilitato">Abilitato</span></dt>
+        <dd>
+            <span>{{materie.abilitato}}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterSampleApplicationApp.materie.dataModifica">Data Modifica</span></dt>
+        <dd>
+            <span>{{materie.dataModifica | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterSampleApplicationApp.materie.relMatCdl">Rel Mat Cdl</span></dt>
+        <dd>
+            <div *ngIf="materie.relMatCdlId">
+                <a [routerLink]="['/cdl', materie.relMatCdlId]">{{materie.relMatCdlNome}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="jhipsterSampleApplicationApp.materie.relMatTut">Rel Mat Tut</span></dt>
+        <dd>
+            <div *ngIf="materie.relMatTutId">
+                <a [routerLink]="['/tutor', materie.relMatTutId]">{{materie.relMatTutCognome}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="jhipsterSampleApplicationApp.materie.relMatDoc">Rel Mat Doc</span></dt>
+        <dd>
+            <div *ngIf="materie.relMatDocId">
+                <a [routerLink]="['/docenti', materie.relMatDocId]">{{materie.relMatDocCognome}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'materie/'+ materie.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>
